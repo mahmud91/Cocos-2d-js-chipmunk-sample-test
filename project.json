@@ -1,0 +1,40 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","external"],
+
+    "jsList" : [   	
+    	"src/Base/CCNodeEx.js",
+        "src/Base/CCSceneEx.js",
+        "src/Physics/Chipmunk/CCPhysicsBodyInfo_chipmunk.js",
+        "src/Physics/Chipmunk/CCPhysicsShapeInfo_chipmunk.js",
+        "src/Physics/Chipmunk/CCPhysicsJointInfo_chipmunk.js",
+        "src/Physics/Chipmunk/CCPhysicsWorldInfo_chipmunk.js",
+        "src/Physics/Chipmunk/CCPhysicsContactInfo_chipmunk.js",
+        "src/Physics/CCPhysicsShape.js",
+        "src/Physics/CCPhysicsBody.js",
+        "src/Physics/CCPhysicsJoint.js",
+        "src/Physics/CCPhysicsWorld.js",
+        "src/Physics/CCPhysicsContact.js",
+        "src/VisibleRect.js",    
+        "src/Resources/Images.js",
+        "src/Layer/SplashLayer.js",
+        "src/Layer/MenuLayer.js",
+        "src/Layer/LevelLayer.js",
+        "src/Layer/GameLayer.js",
+        "src/Scene/SplashScene.js",
+        "src/Scene/GameScene.js",
+        "src/Scene/MenuScene.js",
+        "src/Scene/LevelScene.js",
+        "src/Resources/Strings.js",
+        "src/Utility/GameObjects.js",
+        "src/Utility/EventHandler.js"
+    ]
+}
